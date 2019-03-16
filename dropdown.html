@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+<!--     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://libs.cdnjs.net/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://libs.cdnjs.net/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.pd-editor-wrap{
+			border: 1px solid #aaa;
+		}
+		.pd-editor-toolbar{
+			padding: 10px 20px;
+			border-bottom: 1px solid #aaa;
+		}
+		.pd-editor-content{
+			padding: 20px;
+			height: 500px;
+			overflow-y: scroll;
+		}
+	</style>
+</head>
+<body>
+	<div class="container mt-4">
+		<div class="pd-editor-wrap">
+			<div class="pd-editor-toolbar">
+				<div class="btn-group btn-group-sm pd-dropdown" tabindex="-1">
+					<button class="btn btn-secondary dropdown-toggle" type="button">
+						<i class="fa fa-header"></i> <span class="dropdown-text">Heading</span></button>
+					<div class="dropdown-menu">
+						<button type="button" class="dropdown-item" data-dropdown="heading" data-value="H1">
+							<h1>Heading 1</h1>
+						</button>
+						<button type="button" class="dropdown-item" data-dropdown="heading" data-value="H2">
+							<h2>Heading 2</h2>
+						</button>
+						<button type="button" class="dropdown-item" data-dropdown="heading" data-value="H3">
+							<h3>Heading 3</h3>
+						</button>
+						<button type="button" class="dropdown-item" data-dropdown="heading" data-value="H4">
+							<h4>Heading 4</h4>
+						</button>
+						<button type="button" class="dropdown-item" data-dropdown="heading" data-value="H5">
+							<h5>Heading 5</h5>
+						</button>
+						<button type="button" class="dropdown-item" data-dropdown="heading" data-value="H6">
+							<h6>Heading 6</h6>
+						</button>
+					</div>
+				</div>
+				<div class="btn-group btn-group-sm pd-dropdown" tabindex="-1">
+					<button class="btn btn-secondary dropdown-toggle" type="button"><i class="fa fa-font"></i> <span class="dropdown-text">Font</span></button>
+					<div class="dropdown-menu">
+						<button type="button" class="dropdown-item" data-dropdown="fontName" data-value="arial" style="font-family: arial">Arial</button>
+						<button type="button" class="dropdown-item" data-dropdown="fontName" data-value="comic sans ms" style="font-family: comic sans ms"> Comic Sans Ms</button>
+						<button type="button" class="dropdown-item" data-dropdown="fontName" data-value="impact" style="font-family: impact">Impact</button>
+						<button type="button" class="dropdown-item" data-dropdown="fontName" data-value="ubuntu" style="font-family: ubuntu">Ubuntu</button>
+						<button type="button" class="dropdown-item" data-dropdown="fontName" data-value="verdana" style="font-family: verdana">Verdana</button>
+						<button type="button" class="dropdown-item" data-dropdown="fontName" data-value="times" style="font-family: times">Times New Roman</button>
+						<button type="button" class="dropdown-item" data-dropdown="fontName" data-value="tahoma" style="font-family: tahoma">Tahoma</button>
+						<button type="button" class="dropdown-item" data-dropdown="fontName" data-value="helvetica" style="font-family: helvetica">Helvetica</button>
+					</div>
+				</div>
+				<div class="btn-group btn-group-sm pd-dropdown" tabindex="-1">
+						<button class="btn btn-secondary dropdown-toggle" type="button"><i class="fa fa-text-height"></i> <span class="dropdown-text">16px</span></button>
+						<div class="dropdown-menu">
+							<button type="button" class="dropdown-item" data-dropdown="fontSize" data-value="1" style="font-size: 10px">10px</button>
+							<button type="button" class="dropdown-item" data-dropdown="fontSize" data-value="2" style="font-size: 13px">13px</button>
+							<button type="button" class="dropdown-item" data-dropdown="fontSize" data-value="3" style="font-size: 16px">16px</button>
+							<button type="button" class="dropdown-item" data-dropdown="fontSize" data-value="4" style="font-size: 18px">18px</button>
+							<button type="button" class="dropdown-item" data-dropdown="fontSize" data-value="5" style="font-size: 24px">24px</button>
+							<button type="button" class="dropdown-item" data-dropdown="fontSize" data-value="6" style="font-size: 32px">32px</button>
+							<button type="button" class="dropdown-item" data-dropdown="fontSize" data-value="7" style="font-size: 48px">48px</button>
+						</div>
+				</div>
+			</div>
+			<div class="pd-editor-content" contenteditable="true">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum earum est odio blanditiis voluptatum ullam non. Molestiae consequatur blanditiis, sequi, molestias eius exercitationem iure illo magnam laboriosam asperiores, hic autem perferendis sit numquam veritatis dolores laudantium enim nisi! Ipsa perferendis molestias eum maiores, voluptate animi laborum. Tenetur, eos, similique! Cum facilis eveniet possimus, cupiditate voluptatibus a dignissimos magni quisquam illo temporibus, iste neque maxime eaque odio. Ut aspernatur esse molestias explicabo labore enim, debitis repellat quibusdam deserunt vel voluptatem sed quis atque minus omnis magni, dolores ipsum officia necessitatibus placeat rerum. Repudiandae omnis, sit voluptas iusto illum, atque, dolorum deleniti architecto sint quibusdam, tenetur! Nostrum amet totam quidem eaque officia veniam natus vel voluptatum. Deleniti consequatur, quae architecto temporibus nulla eos quisquam itaque laboriosam. Tempora fugit impedit quod sequi quidem distinctio harum odit illo unde. Eum ut, placeat incidunt quae fugit sunt, vitae provident saepe sint non pariatur repellendus aliquid. Aperiam eligendi error libero itaque placeat nesciunt quibusdam nemo quia aspernatur? Sequi qui iure illum nam, animi ipsa dolor sunt autem. Repellat perspiciatis exercitationem consequuntur cum! Quae unde, reiciendis magnam aliquid maxime dolore ipsa eligendi praesentium nesciunt eum voluptatem suscipit accusantium rerum perspiciatis, non deleniti. Animi quos soluta unde eos neque, architecto pariatur vel quaerat praesentium assumenda minus nam maxime eum saepe, odio officia ad quam suscipit numquam deserunt tenetur labore? Velit atque esse, odit tenetur corporis dolorem itaque nihil quas cum, optio.
+			</div>
+		</div>
+	</div>
+	<footer class="text-center pt-3 pb-2">
+		<p>代码如诗</p>
+	</footer>
+
+	<script>
+        Array.prototype.forEach.call(document.querySelectorAll('.pd-dropdown'), function(elem){
+        
+	        var toggle = elem.querySelector('.dropdown-toggle');
+	        var menu = elem.querySelector('.dropdown-menu');
+	        var toggletext = toggle.querySelector('.dropdown-text');
+	        var menuitem = menu.querySelectorAll('.dropdown-item');
+	        
+	        elem.onclick = function(e){
+	            e.preventDefault();
+	            menu.classList.toggle('show');
+	        }
+	        elem.onblur = function(e){
+	            e.preventDefault();
+	            menu.classList.remove('show');
+	        }
+	        
+	        Array.prototype.forEach.call(menuitem, function(item){
+	            item.onclick = function(){
+	                toggletext.innerText = item.innerText;
+	                var dataDropdown = item.getAttribute('data-dropdown');
+	                var dataValue = item.getAttribute('data-value');
+	                document.execCommand(dataDropdown, false, dataValue); 
+	            }
+	        })
+    	})
+	</script>
+</body>
+</html>
